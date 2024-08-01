@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:slnt,wght@-10..0,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.container{
+    padding: 0px 40px;
+    margin: 0px auto;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+body{
+    font-family:  'Open Sans', sans-serif;
+}
+
+
+.logo{
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+
+
+/* login signup ......... */
+.btn-login{
+    font-family:  'Open Sans',  sans-serif;
+    color: #C21760;
+    border: 1px solid #C21760;
+    padding: 7px 20px;
+    border-radius: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-size: 14px;    
+}
+
+.btn-login:hover{
+   transform: scale(1.1);
+   background-color: #eec5d6;
+}
+
+.btn-signup{
+    font-family:  'Open Sans',  sans-serif;
+    border: none;
+    color: white;
+    background-color: #C21760;
+    padding: 7px 20px;
+    border-radius:10px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 14px;
+   
+}
+
+.btn-signup:hover{
+    transform: scale(1.1);
+ }
+ 
+
+
+
+.special-btn-world-select{
+    margin-left: 30px;
+
+}
+
+
+
+.logo img {
+    /* display: flex;
+    align-items: center; */
+    width: 44px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.logo span{
+    font-size: 28px;
+    /* display: flex;
+    text-align: center; */
+    color: #ff2c84;
+}
+
+select{
+    font-family: "FontAwesome","Second Font name" ;
+    border: none;
+    padding: 14px;
+    
+}
+
+
+
+
+
+/* add to cart w */
+
+.addto-cart{
+border: none;
+border-radius: 50%;
+padding: 14px;
+margin-left:30px;
+}
+
+
+
+
+.cart-icon{
+    font-size: 20px;
+    color: #ff2c84;
+}
+
+.cart-icon:hover{
+    transform: scale(1.1);
+}
+
+
+.hero-section{
+    position: relative;
+    height: 500px;
+    background-color: #f7f7f7;
+}
+
+.hero-img{
+    position: absolute;
+    width: 50%;
+    margin-left: 60%;
+    max-height: 650px;
+    background-image: url("./imgs/big-panda-right-side-logo.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+
+.hero-h1-sub-text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    
+}
+
+
+/* Global search */
+
+.global-search{
+display: flex;
+background-color: white;
+margin-top: 20px;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0px 0px 56px 6px rgb(0, 0, 0,0.3);
+}
+
+
+.search{
+    position: relative;
+}
+
+.search input{
+    width: 500px;
+    height: 40px;
+    border: 1px solid #c3bcbc;
+    border8px
+}
+
+.search input[type='text']{
+    font-size: 20px;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+
+
+.search button{
+    position: absolute;
+    left: 395px;
+    top: 30%;
+    width: 100px;
+    border: none;
+    background: none;
+    color: #C21760;
+    font-size: 15px;
+    font-weight: 600;
+
+} 
+
+.find-food-btn{
+    margin: 0px 20px;
+    padding: 10px 20px;
+    background-color: #ff2c84;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.find-food-btn:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*  */
+.top-sec{
+    position: relative;
+    margin-top: 250px;
+    height: 1000px;
+}
+
+
+.first-text{
+    font-size: 32px;
+    margin: 20px 80px;
+}
+.img-sec{
+    
+    background-image: url("imgs/kitchen.webp");
+    background-size: cover;
+    height: 704px;
+    width: 100%;
+}
+
+.container-text{
+    position: absolute;
+    border: 1px solid transparent;
+    background-color: white;
+    height: 368px;
+    width: 564px;
+    top: 550px;
+    left: 200px;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 0px 24px;
+    box-shadow: 4px 6px  #817d7d;
+    
+   
+}
+
+.container-text p {
+  padding: 10px 0px;
+}
+
+.container-text button {
+    padding: 10px 0px;
+    border: none;
+    color: white;
+    background-color: #C21760;
+    border-radius:10px;
+    margin: 30px;
+    font-size: 20px;
+    min-height: 48px;
+    cursor: pointer;
+    padding: 8px 24px;
+    
+  }
+
+  .container-text button:hover{
+    transform: scale(1.1);
+}
+
+
+  
+  
+.text-p{
+    font-family:  'Open Sans',  sans-serif;
+    font-size: 26px;
+}
